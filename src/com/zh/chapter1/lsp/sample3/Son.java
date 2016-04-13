@@ -6,14 +6,14 @@ import java.util.Map;
 
 public class Son extends Father {
 	/**
-	 * ×ÓÀà·Å´óÁË¸¸ÀàÖĞÍ¬Ãû·½·¨µÄÊäÈë²ÎÊı·¶Î§
-	 * ÒòÎª×ÓÀà¼Ì³Ğ£¬ËùÓĞÓµÓĞ¸¸ÀàµÄdoSomething(HashMap map)·½·¨
-	 * ´Ë·½·¨Êµ¼ÊÉÏÊÇ¶Ô¸¸ÀàÖĞÍ¬Ãû·½·¨µÄÖØÔØ
+	 * å­ç±»æ”¾å¤§äº†çˆ¶ç±»ä¸­åŒåæ–¹æ³•çš„è¾“å…¥å‚æ•°èŒƒå›´
+	 * å› ä¸ºå­ç±»ç»§æ‰¿ï¼Œæ‰€æœ‰æ‹¥æœ‰çˆ¶ç±»çš„doSomething(HashMap map)æ–¹æ³•
+	 * æ­¤æ–¹æ³•å®é™…ä¸Šæ˜¯å¯¹çˆ¶ç±»ä¸­åŒåæ–¹æ³•çš„é‡è½½
 	 * @param map
 	 * @return
 	 */
 	public Collection doSomething(Map map){
-		System.out.println("×ÓÀà±»Ö´ĞĞ¡£¡£¡£");
+		System.out.println("å­ç±»è¢«æ‰§è¡Œã€‚ã€‚ã€‚");
 		return map.values();
 	}
 }
